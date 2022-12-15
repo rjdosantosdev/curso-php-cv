@@ -44,7 +44,7 @@
         <label for="final">Final</label>:
         <input type="number" max="100" min="0" id="final" name="final"> 
       </div>
-      <!-- <div>
+      <div>
         <label for="">Incremento</label>
           <select name="incremento" id="">
             <option value="1" selected>1</option>
@@ -54,7 +54,18 @@
             <option value="5">5</option>
             <option value="6">6</option>
           </select>
-      </div> -->
+      </div>
+      <div>
+        <label for="">Decremento</label>
+          <select name="decremento" id="">
+            <option value="10" selected>10</option>
+            <option value="9">9</option>
+            <option value="8">8</option>
+            <option value="7">7</option>
+            <option value="6">6</option>
+            <option value="5">5</option>
+          </select>
+      </div>
       <input type="submit" value="Contar">
   </form>
 </body>
