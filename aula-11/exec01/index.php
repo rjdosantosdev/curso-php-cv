@@ -36,11 +36,25 @@
           
           $contador = 1;
           while ($contador <= 5) {
-            echo "<br>Valor $contador:<input max='30' min='0' type='number' name='contadordinamico'>";
+            echo "<br>Valor $contador:<input type='number' name='v-$contador' value='0' min='0' max='50'/><br/>";
             $contador++;
          } 
         ?>
         <input type="submit" value="Verificar">
     </form>
+
+    <!-- Modificando o laço -->
+    <?php
+    $c = 1; 
+    # Break e continue quebra o fluxo do loop natual. Não é recomendado usar. Mas se for preciso, usa-se assim;
+      while ($c <= 1000) {
+        # code
+        break;
+        // code
+        continue;  
+        $c++;
+      }
+    
+    ?>
 </body>
 </html>
