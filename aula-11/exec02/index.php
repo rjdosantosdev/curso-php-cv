@@ -57,7 +57,7 @@
       </div>
       <div>
         <label for="">Decremento</label>
-          <select name="decremento" id="">
+          <select name=""o id="">
             <option value="10" selected>10</option>
             <option value="9">9</option>
             <option value="8">8</option>
